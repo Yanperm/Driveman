@@ -1,48 +1,25 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
+
 class Welcome extends CI_Controller {
-	public function __construct(){
-		parent::__construct();
-	}
-	/* Load index page */
+
+	/**
+	 * Index Page for this controller.
+	 *
+	 * Maps to the following URL
+	 * 		http://example.com/index.php/welcome
+	 *	- or -
+	 * 		http://example.com/index.php/welcome/index
+	 *	- or -
+	 * Since this controller is set as the default controller in
+	 * config/routes.php, it's displayed at http://example.com/
+	 *
+	 * So any other public methods not prefixed with an underscore will
+	 * map to /index.php/welcome/<method_name>
+	 * @see https://codeigniter.com/user_guide/general/urls.html
+	 */
 	public function index()
 	{
-		$data['data'] = $query = $this->db->get('tbcustomer')->result();
-		$this->load->view('template/header');
-		$this->load->view('welcome_message',$data);
-		$this->load->view('template/footer');
+		$this->load->view('welcome_message');
 	}
-	/* Show customer */
-	public function show(){
-		$data['data'] = $query = $this->db->get('tbcustomer')->result();		
-		$this->load->view('welcome_message',$data);
-	}
-	/* Delete customer */
-	public function delete($id){
-		$this->Welcome_model->delete($id);			
-	}
-	/* Create customer */
-	public function insert(){
-		$data = array(
-			"customer_id"=> $this->input->post('customer_id'),
-			"customer_name"=> $this->input->post('customer_name')
-		);
-		$this->Welcome_model->insert($data);		
-		redirect(base_url('welcome'));
-	}
-	/* Update customer */
-	public function update(){
-		$data = array(
-			"customer_id"=> $this->input->post('customer_id'),
-			"customer_name"=> $this->input->post('customer_name')
-		);
-		$this->Welcome_model->update($data);
-		redirect(base_url('welcome/show'));
-	}
-	/* Send Data customer to edit */
-	public function edit($id){
-		$data['id'] = $id;
-		$this->load->view('edit',$data);
-	}
-
 }

@@ -1,78 +1,89 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?><!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Welcome to CodeIgniter</title>
 
-<main class="container">
-<hr/><br/><br/>
-<table class="table table-hover table-dark table-striped border-success"cellsp>
-    <thead>
-        <tr>
-            <th scope="row">ลำดับที่</th>
-            <th>หมายเลขรหัสลูกค้า</th>
-            <th>ชื่อ-นามสกุล</th>
-            <th>ประเภทลูกค้า</th>
-            <th>Driveman Credit</th>
-            <th>วันที่เติม</th>
-            <th>วันที่หมดอายุ</th>
-            <th>จัดการข้อมูล</th>
-        </tr>
-    </thead>
-    <tbody>
-        <?php 
-        $i = 1;           
-            foreach ($data as $row){    
-                $id = $row->customer_id;                            
-        ?>
-        <tr id="<?php echo $row->customer_id; ?>">
-            <td scope="row"><span class="badge bg-success"><?php echo $i++; ?></span></td>
-            <td><?php echo $row->customer_id; ?></td>
-            <td><?php echo $row->customer_name; ?></td>
-            <td>Premuim</td>
-            <td>฿1000</td>
-            <td>25-08-2563</td>
-            <td>24-09-2563</td>
-            <td>
-            <button type="submit" class="btn btn-danger remove"> Delete</button>
-            <a href="<?php echo base_url('welcome/edit/'.$id); ?>" class="btn btn-warning" onclick="return confirm('คุณต้องการแก้ไขใช่่หรือไม่')">แก้ไข</a>
-            </td>
-        </tr>
-        <?php 
-            }
-        ?>
-    </tbody>
-</table>
+	<style type="text/css">
 
-<script type="text/javascript">
-    $(".remove").click(function(){
-        var id = $(this).parents("tr").attr("id");    
-       swal({
-        title: "คำเตือนจากระบบ",
-        text: "คุณมั่นใจหรือไม่ที่จะลบข้อมูล!",
-        type: "warning",
-        showCancelButton: true,
-        confirmButtonClass: "btn-danger",
-        confirmButtonText: "ใช่, ลบข้อมูลออก",
-        cancelButtonText: "ไม่, ยกเลิกรายการ",
-        closeOnConfirm: false,
-        closeOnCancel: false
-      },
-      function(isConfirm) {
-        if (isConfirm) {
-          $.ajax({
-             url: '<?php echo base_url('welcome/delete/'); ?>'+id,
-             type: 'DELETE',
-             error: function() {
-                alert('เกิดปัญหากับระบบ');
-             },
-             success: function(data) {
-                  $("#"+id).remove();
-                  swal("Deleted!", "ระบบได้ทำการลบข้อมูลเรียบร้อยแล้ว", "success");
-             }
-          });
-        } else {
-          swal("Cancelled", "ระบบยกเลิกการทำรายการแล้ว", "error");
-        }
-      });
-     
-    });
-    
-</script>
-</main>
+	::selection { background-color: #E13300; color: white; }
+	::-moz-selection { background-color: #E13300; color: white; }
 
+	body {
+		background-color: #fff;
+		margin: 40px;
+		font: 13px/20px normal Helvetica, Arial, sans-serif;
+		color: #4F5155;
+	}
+
+	a {
+		color: #003399;
+		background-color: transparent;
+		font-weight: normal;
+	}
+
+	h1 {
+		color: #444;
+		background-color: transparent;
+		border-bottom: 1px solid #D0D0D0;
+		font-size: 19px;
+		font-weight: normal;
+		margin: 0 0 14px 0;
+		padding: 14px 15px 10px 15px;
+	}
+
+	code {
+		font-family: Consolas, Monaco, Courier New, Courier, monospace;
+		font-size: 12px;
+		background-color: #f9f9f9;
+		border: 1px solid #D0D0D0;
+		color: #002166;
+		display: block;
+		margin: 14px 0 14px 0;
+		padding: 12px 10px 12px 10px;
+	}
+
+	#body {
+		margin: 0 15px 0 15px;
+	}
+
+	p.footer {
+		text-align: right;
+		font-size: 11px;
+		border-top: 1px solid #D0D0D0;
+		line-height: 32px;
+		padding: 0 10px 0 10px;
+		margin: 20px 0 0 0;
+	}
+
+	#container {
+		margin: 10px;
+		border: 1px solid #D0D0D0;
+		box-shadow: 0 0 8px #D0D0D0;
+	}
+	</style>
+</head>
+<body>
+
+<div id="container">
+	<h1>Welcome to CodeIgniter!</h1>
+
+	<div id="body">
+		<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
+
+		<p>If you would like to edit this page you'll find it located at:</p>
+		<code>application/views/welcome_message.php</code>
+
+		<p>The corresponding controller for this page is found at:</p>
+		<code>application/controllers/Welcome.php</code>
+
+		<p>If you are exploring CodeIgniter for the very first time, you should start by reading the <a href="user_guide/">User Guide</a>.</p>
+	</div>
+
+	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>
+</div>
+
+</body>
+</html>
