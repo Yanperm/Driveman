@@ -149,17 +149,15 @@ body {
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto mb-2 mb-md-0">
           <li class="nav-item active">
-            <a class="nav-link" aria-current="page" href="#">เรียกคนขับ</a>
+            <a class="nav-link" aria-current="page" href="#">Call Driver</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">กระเป๋าตังค์</a>
+            <a class="nav-link" href="#">Wallet</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li>
+          
         </ul>
         <form class="d-flex">
-		  <button class="btn btn-outline-success" type="submit">เข้าใช้งานระบบ</button>
+		  <button class="btn btn-outline-success" type="submit">Sign In</button>
         </form>
       </div>
     </div>
