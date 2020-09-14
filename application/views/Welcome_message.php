@@ -160,7 +160,6 @@ body {
         </ul>
         <form class="d-flex">
 		  <button class="btn btn-outline-success" type="submit">เข้าใช้งานระบบ</button>
-          <button class="btn btn-outline-success" type="submit">ลงทะเบียน</button>
         </form>
       </div>
     </div>
