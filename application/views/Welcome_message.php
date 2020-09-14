@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.72.0">
-    <title>Carousel Template · Bootstrap</title>
+    <title>Driveman.co : Welcome</title>
 
     <link rel="canonical" href="https://v5.getbootstrap.com/docs/5.0/examples/carousel/">
 
@@ -236,8 +236,6 @@ body {
   <div class="container marketing">
 
     <!-- START THE FEATURETTES -->
-
-    <hr class="featurette-divider">
 
     <div class="row featurette">
       <div class="col-md-7">
