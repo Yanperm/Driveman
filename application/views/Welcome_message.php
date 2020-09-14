@@ -158,11 +158,17 @@ body {
             <a class="nav-link" href="#">Market Place</a>
           </li>
 		  <li class="nav-item">
-            <a class="nav-link" href="#">Street</a>
+            <a class="nav-link" href="#">Wall Street</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="#">Thai Stock</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="#">New</a>
           </li>
         </ul>
         <form class="d-flex">
-		  <button class="btn btn-outline-success" type="submit">Sign In</button>
+		  <button class="btn btn-success" type="submit">Sign In</button>
         </form>
       </div>
     </div>
