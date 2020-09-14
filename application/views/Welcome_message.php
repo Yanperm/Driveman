@@ -154,7 +154,12 @@ body {
           <li class="nav-item">
             <a class="nav-link" href="#">Wallet</a>
           </li>
-          
+		  <li class="nav-item">
+            <a class="nav-link" href="#">Market Place</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="#">Street</a>
+          </li>
         </ul>
         <form class="d-flex">
 		  <button class="btn btn-outline-success" type="submit">Sign In</button>
