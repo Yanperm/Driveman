@@ -209,18 +209,16 @@ body {
   </nav>
   <div class="nav-scroller bg-white shadow-sm">
   <nav class="nav nav-underline container">
-    <a class="nav-link active" aria-current="page" href="#">Dashboard</a>
+    <a class="nav-link active" aria-current="page" href="#">Investor</a>
     <a class="nav-link" href="#">
-      Friends
+      Wallet
       <span class="badge bg-light text-dark rounded-pill align-text-bottom">27</span>
     </a>
-    <a class="nav-link" href="#">Explore</a>
-    <a class="nav-link" href="#">Suggestions</a>
-    <a class="nav-link" href="#">Link</a>
-    <a class="nav-link" href="#">Link</a>
-    <a class="nav-link" href="#">Link</a>
-    <a class="nav-link" href="#">Link</a>
-    <a class="nav-link" href="#">Link</a>
+    <a class="nav-link" href="#">Crypto</a>
+    <a class="nav-link" href="#">Bitcoins</a>
+    <a class="nav-link" href="#">XRP</a>
+    <a class="nav-link" href="#">Gold</a>
+    <a class="nav-link" href="#">Forex</a>
   </nav>
 </div>
 </header>
