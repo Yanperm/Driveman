@@ -181,14 +181,8 @@ body {
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto mb-2 mb-md-0">
-          <li class="nav-item active">
-            <a class="nav-link" aria-current="page" href="#">Call Driver</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Wallet</a>
-          </li>
-		  <li class="nav-item">
+        <ul class="navbar-nav mr-auto mb-2 mb-md-0">        
+		  <li class="nav-item active">
             <a class="nav-link" href="#">Market Place</a>
           </li>
 		  <li class="nav-item">
@@ -196,10 +190,7 @@ body {
           </li>
 		  <li class="nav-item">
             <a class="nav-link" href="#">Thai Stock</a>
-          </li>
-		  <li class="nav-item">
-            <a class="nav-link" href="#">New</a>
-          </li>
+          </li>		 
         </ul>
         <form class="d-flex">
 		  <button class="btn btn-success" type="submit">Sign In</button>
