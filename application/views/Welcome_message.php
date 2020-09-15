@@ -183,13 +183,17 @@ body {
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto mb-2 mb-md-0">        
 		  <li class="nav-item active">
-            <a class="nav-link" href="#">Market Place</a>
+      <a class="nav-link active" aria-current="page" href="#">Investor</a>
+    <a class="nav-link" href="#">
+      Wallet
+      <span class="badge bg-light text-dark rounded-pill align-text-bottom">27</span>
+    </a>
           </li>
 		  <li class="nav-item">
-            <a class="nav-link" href="#">Wall Street</a>
+      <a class="nav-link" href="#">Crypto</a>
           </li>
 		  <li class="nav-item">
-            <a class="nav-link" href="#">Thai Stock</a>
+      <a class="nav-link" href="#">Gold</a>
           </li>		 
         </ul>
         <form class="d-flex">
@@ -198,20 +202,7 @@ body {
       </div>
     </div>
   </nav>
-  <div class="nav-scroller bg-white shadow-sm">
-  <nav class="nav nav-underline container">
-    <a class="nav-link active" aria-current="page" href="#">Investor</a>
-    <a class="nav-link" href="#">
-      Wallet
-      <span class="badge bg-light text-dark rounded-pill align-text-bottom">27</span>
-    </a>
-    <a class="nav-link" href="#">Crypto</a>
-    <a class="nav-link" href="#">Bitcoins</a>
-    <a class="nav-link" href="#">XRP</a>
-    <a class="nav-link" href="#">Gold</a>
-    <a class="nav-link" href="#">Forex</a>
-  </nav>
-</div>
+ 
 </header>
 
 <main>
