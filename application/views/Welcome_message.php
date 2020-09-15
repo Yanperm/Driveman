@@ -131,40 +131,6 @@ body {
     margin-top: 7rem;
   }
 }
-.nav-scroller {
-  position: relative;
-  z-index: 2;
-  height: 2.75rem;
-  overflow-y: hidden;
-}
-
-.nav-scroller .nav {
-  display: flex;
-  flex-wrap: nowrap;
-  padding-bottom: 1rem;
-  margin-top: -1px;
-  overflow-x: auto;
-  color: rgba(255, 255, 255, .75);
-  text-align: center;
-  white-space: nowrap;
-  -webkit-overflow-scrolling: touch;
-}
-
-.nav-underline .nav-link {
-  padding-top: .75rem;
-  padding-bottom: .75rem;
-  font-size: .875rem;
-  color: #6c757d;
-}
-
-.nav-underline .nav-link:hover {
-  color: #007bff;
-}
-
-.nav-underline .active {
-  font-weight: 500;
-  color: #343a40;
-}
     </style>
 
     
@@ -174,27 +140,32 @@ body {
   <body>
     
 <header>
-  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark shadow-lg p-3 mb-5">
     <div class="container-fluid">
       <a class="navbar-brand" href="<?php echo base_url(); ?>">Driveman.co</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto mb-2 mb-md-0">        
-		  <li class="nav-item active">
-      <a class="nav-link active" aria-current="page" href="#">Investor</a>
-    <a class="nav-link" href="#">
-      Wallet
-      <span class="badge bg-light text-dark rounded-pill align-text-bottom">27</span>
-    </a>
+        <ul class="navbar-nav mr-auto mb-2 mb-md-0">
+          <li class="nav-item active">
+            <a class="nav-link" aria-current="page" href="#">Investor</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Wallet</a>
           </li>
 		  <li class="nav-item">
-      <a class="nav-link" href="#">Crypto</a>
+            <a class="nav-link" href="#">Gold</a>
           </li>
 		  <li class="nav-item">
-      <a class="nav-link" href="#">Gold</a>
-          </li>		 
+            <a class="nav-link" href="#">Forex</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="#">Stock</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="#">XPR</a>
+          </li>
         </ul>
         <form class="d-flex">
 		  <button class="btn btn-success" type="submit">Sign In</button>
@@ -202,7 +173,6 @@ body {
       </div>
     </div>
   </nav>
- 
 </header>
 
 <main>
