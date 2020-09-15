@@ -175,7 +175,7 @@ body {
     
 <header>
   <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
-    <div class="container-fluid">
+    <div class="container">
       <a class="navbar-brand" href="<?php echo base_url(); ?>">Driveman.co</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -208,7 +208,7 @@ body {
     </div>
   </nav>
   <div class="nav-scroller bg-white shadow-sm">
-  <nav class="nav nav-underline">
+  <nav class="nav nav-underline container">
     <a class="nav-link active" aria-current="page" href="#">Dashboard</a>
     <a class="nav-link" href="#">
       Friends
