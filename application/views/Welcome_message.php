@@ -154,9 +154,8 @@
           <button class="btn btn-success" type="submit">Login</button>
         </form>
         <hr/>
-        <form class="d-flex align-right" method="post" action=""> 
-        <button class="btn btn-outline-success" type="submit">เปิดบัญชีใหม่</button>
-        <a href="#">ข้อตกลงการใช้งาน</a>
+        <form class="d-flex align-right"> 
+        <button class="btn btn-outline-success">เปิดบัญชีใหม่</button>        
         </form>
       </div>
     </div>
