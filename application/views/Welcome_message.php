@@ -145,11 +145,11 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto mb-2 mb-md-0">
           <li class="nav-item active">
-            <a class="nav-link" aria-current="page" href="#">เบอร์โทรศัพท์</a>
+            <a class="nav-link" aria-current="page">เบอร์โทรศัพท์</a>
           </li>         
         </ul>
         <form class="d-flex">
-          <input class="form-control mr-2" type="search" placeholder="Phone" aria-label="Search">
+          <input class="form-control mr-2" type="search" min_length="10" max_length="10" placeholder="Phone" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Login</button>
         </form>
       </div>
