@@ -145,27 +145,12 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto mb-2 mb-md-0">
           <li class="nav-item active">
-            <a class="nav-link" aria-current="page" href="#">Investor</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Wallet</a>
-          </li>
-		  <li class="nav-item">
-            <a class="nav-link" href="#">Gold</a>
-          </li>
-		  <li class="nav-item">
-            <a class="nav-link" href="#">Forex</a>
-          </li>
-		  <li class="nav-item">
-            <a class="nav-link" href="#">Stock</a>
-          </li>
-		  <li class="nav-item">
-            <a class="nav-link" href="#">XPR</a>
-          </li>
+            <a class="nav-link" aria-current="page" href="#">เบอร์โทรศัพท์</a>
+          </li>         
         </ul>
         <form class="d-flex">
-          <input class="form-control mr-2" type="search" placeholder="เบอร์โทร" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Login</button>
+          <input class="form-control mr-2" type="search" placeholder="กรอกข้อมูลเบอร์โทร" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">เข้าระบบ</button>
         </form>
       </div>
     </div>
