@@ -142,7 +142,7 @@ body {
 <header>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark shadow-sm">
     <div class="container-fluid">
-      <a class="navbar-brand" href="<?php echo base_url(); ?>">Driveman.co</a>
+      <a class="navbar-brand" href="<?php echo base_url(); ?>">BestInvestor</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -168,7 +168,7 @@ body {
           </li>
         </ul>
         <form class="d-flex">
-		  <button class="btn btn-success" type="submit">Sign In</button>
+		  <button class="btn btn-success" type="submit">บัญชีผู้ใช้งาน</button>
         </form>
       </div>
     </div>
