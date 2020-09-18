@@ -149,8 +149,8 @@
           </li>         
         </ul>
         <form class="d-flex">
-          <input class="form-control mr-2" type="search" placeholder="กรอกข้อมูลเบอร์โทร" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">เข้าระบบ</button>
+          <input class="form-control mr-2" type="search" placeholder="Phone" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Login</button>
         </form>
       </div>
     </div>
