@@ -148,8 +148,8 @@
             <a class="nav-link" aria-current="page">เบอร์โทรศัพท์</a>
           </li>         
         </ul>
-        <form class="d-flex">
-          <input class="form-control mr-2" type="search" min_length="10" max_length="10" placeholder="Phone" aria-label="Search">
+        <form class="d-flex" method="post" action=""> 
+          <input class="form-control mr-2" type="search" min_length="10" max_length="10" placeholder="Phone" required>
           <button class="btn btn-outline-success" type="submit">Login</button>
         </form>
       </div>
