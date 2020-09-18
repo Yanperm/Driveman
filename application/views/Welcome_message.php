@@ -145,11 +145,12 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto mb-2 mb-md-0">
           <li class="nav-item active">
-            <a class="nav-link" aria-current="page">เบอร์โทรศัพท์</a>
+            <a class="nav-link" aria-current="page">สำหรับสมาชิก</a>
           </li>         
         </ul>
         <form class="d-flex" method="post" action=""> 
           <input class="form-control mr-2" type="search" min_length="10" max_length="10" placeholder="Phone" required>
+          <input class="form-control mr-2" type="search" min_length="10" max_length="10" placeholder="Password" required>
           <button class="btn btn-outline-success" type="submit">Login</button>
         </form>
       </div>
