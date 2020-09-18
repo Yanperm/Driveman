@@ -164,7 +164,8 @@
           </li>
         </ul>
         <form class="d-flex">
-		  <button class="btn btn-success" type="submit">บัญชีผู้ใช้งาน</button>
+          <input class="form-control mr-2" type="search" placeholder="เบอร์โทร" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Login</button>
         </form>
       </div>
     </div>
