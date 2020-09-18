@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.72.0">
-    <title>Driveman.co : Welcome</title>
+    <title>BestInvestor : Welcome</title>
 
     <link rel="canonical" href="https://v5.getbootstrap.com/docs/5.0/examples/carousel/">
 
@@ -152,6 +152,10 @@
           <input class="form-control mr-2" type="search" min_length="10" max_length="10" placeholder="Phone" required>
           <input class="form-control mr-2" type="search" min_length="10" max_length="10" placeholder="Password" required>
           <button class="btn btn-outline-success" type="submit">Login</button>
+        </form>
+        <hr/>
+        <form class="d-flex" method="post" action=""> 
+        <button class="btn btn-outline-success" type="submit">เปิดบัญชีใหม่</button>
         </form>
       </div>
     </div>
