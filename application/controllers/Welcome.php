@@ -7,4 +7,9 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('Welcome_message');
 	}
+	public function SingIn(){
+		$this->load->view('');
+		$this->load->view('');
+		$this->load->view('');
+	}
 }
