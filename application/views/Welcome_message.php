@@ -136,7 +136,7 @@
   <body>
     
 <header>
-  <nav class="navbar navbar-dark" style="background-color: #1A5276;">
+  <nav class="navbar navbar-dark" style="background-color: #183054;">
     <div class="container">
       <a class="navbar-brand" href="<?php echo base_url(); ?>">BestInvestor</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
