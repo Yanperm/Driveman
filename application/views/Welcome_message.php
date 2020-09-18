@@ -151,11 +151,12 @@
         <form class="d-flex" method="post" action=""> 
           <input class="form-control mr-2" type="search" min_length="10" max_length="10" placeholder="Phone" required>
           <input class="form-control mr-2" type="search" min_length="10" max_length="10" placeholder="Password" required>
-          <button class="btn btn-outline-success" type="submit">Login</button>
+          <button class="btn btn-success" type="submit">Login</button>
         </form>
         <hr/>
-        <form class="d-flex" method="post" action=""> 
+        <form class="d-flex align-right" method="post" action=""> 
         <button class="btn btn-outline-success" type="submit">เปิดบัญชีใหม่</button>
+        <a href="#">ข้อตกลงการใช้งาน</a>
         </form>
       </div>
     </div>
