@@ -217,7 +217,7 @@
 <!-- ลงทะเบียน -->
 
  <!-- เงื่อนไขการให้บริการ -->
- <div class="modal fade" id="staticForget" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+ <div class="modal fade" id="staticInfo" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -227,11 +227,19 @@
         </button>
       </div>
       <div class="modal-body">
-      <form>         
+      <form>
           <div class="mb-3">
-            <label for="recipient-name" class="col-form-label">บัญชีอีเมล์สำหรับกู้บัญชี</label>
+            <label for="recipient-name" class="col-form-label">ชื่อบัญชีผู้ใช้งาน</label>
+            <input type="text" class="form-control" id="recipient-name" placeholder="ชื่อบัญชีผู้ใช้งาน">
+          </div>
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">บัญชีอีเมล์</label>
             <input type="text" class="form-control" id="recipient-name" placeholder="กรอกบัญชีอีเมล์">
-          </div>         
+          </div>
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">เบอร์โทรศัพท์</label>
+            <input type="text" class="form-control" id="recipient-name" placeholder="กรอกเบอร์โทรศัพท์">
+          </div>
         </form>
       </div>
       <div class="modal-footer">
@@ -247,16 +255,22 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="staticBackdropLabel"><b>ลืมรหัสผ่าน</b></h5>
+        <h5 class="modal-title" id="staticBackdropLabel"><b>คุณลืมรหัสผ่าน ?</b></h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-      
+      <form>         
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">บัญชีอีเมล์สำหรับกู้คืนบัญชี</label>
+            <input type="text" class="form-control" id="recipient-name" placeholder="กรอกบัญชีอีเมล์">
+          </div>         
+        </form>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-outline-success">กู้คืนับัญชี</button>
       </div>
     </div>
   </div>
