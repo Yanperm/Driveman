@@ -310,7 +310,7 @@
   <!-- FOOTER -->
   <footer class="container">
     <p class="float-right"><a href="#" class="btn btn-success btn-sm">กลับสู่ด้านบน</a></p>
-    <p>&copy; 2017-2020 INVESTMENT, Inc. &middot; 
+    <p>&copy; 2020 INVESTMENT, Inc. &middot; 
   </footer>
 </main>
 
