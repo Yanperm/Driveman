@@ -12,6 +12,6 @@ class Customer extends CI_controller{
             "customer_phone"=> $this->input->post('customer_phone')
 		);
 		$this->Customer_model->insert($data);		
-		redirect(base_url('welcome/success'));
+		redirect(base_url('app/success'));
     }
 }
