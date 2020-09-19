@@ -155,7 +155,14 @@
         </form>
         <hr/>
         <form class="d-flex align-right"> 
-        <button class="btn btn-outline-info">เปิดบัญชีใหม่</button>        
+        <ul class="navbar-nav mr-auto mb-2 mb-md-0">
+          <li class="nav-item active">
+            <a class="nav-link" aria-current="page">เปิดบัญชีใหม่</a>
+          </li>  
+          <li class="nav-item active">
+            <a class="nav-link" aria-current="page">เงื่อนไขการบริการ</a>
+          </li>         
+        </ul>    
         </form>
       </div>
     </div>
