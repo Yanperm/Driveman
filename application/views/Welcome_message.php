@@ -149,7 +149,7 @@
           </li>         
         </ul>
         <form class="d-flex" method="post" action=""> 
-          <input class="form-control mr-2" type="search" min_length="10" max_length="10" placeholder="Phone" required>
+          <input class="form-control mr-2" type="search" min_length="10" max_length="10" placeholder="Username" required>
           <input class="form-control mr-2" type="search" min_length="10" max_length="10" placeholder="Password" required>
           <button class="btn btn-success" type="submit">Login</button>
         </form>
