@@ -158,7 +158,7 @@
         <form class="d-flex align-right"> 
         <ul class="navbar-nav mr-auto mb-2 mb-md-0">
           <li class="nav-item active">
-            <a class="nav-link" aria-current="page" href="<?php echo base_url(); ?>">เปิดบัญชีใหม่</a>
+            <a class="nav-link" aria-current="page" data-toggle="modal" data-target="#staticBackdrop">เปิดบัญชีใหม่</a>
           </li>  
           <li class="nav-item active">
             <a class="nav-link" aria-current="page" href="<?php echo base_url(); ?>">เงื่อนไขการบริการ</a>
@@ -181,7 +181,28 @@
 
   <div class="container marketing">
 
-    <!-- START THE FEATURETTES -->
+    <!-- ลงทะเบียน -->
+    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">เปิดบัญชีใหม่</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ลงทะเบียน -->
+
 
     <div class="row featurette">
       <div class="col-md-7">
