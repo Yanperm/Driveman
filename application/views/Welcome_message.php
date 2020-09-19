@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.72.0">
-    <title>BestInvestor : Welcome</title>
+    <title>Financial Advisor</title>
 
     <link rel="canonical" href="https://v5.getbootstrap.com/docs/5.0/examples/carousel/">
 
@@ -139,7 +139,7 @@
 <header>
   <nav class="navbar navbar-dark" style="background-color: #2C085F;">
     <div class="container">
-      <a class="navbar-brand" href="<?php echo base_url(); ?>"><b>INVESTMENT</b></a>
+      <a class="navbar-brand" href="<?php echo base_url(); ?>"><b>Financial Advisor</b></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
