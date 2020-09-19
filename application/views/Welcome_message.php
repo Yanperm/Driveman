@@ -138,14 +138,14 @@
 <header>
   <nav class="navbar navbar-dark" style="background-color: #2C085F;">
     <div class="container">
-      <a class="navbar-brand" href="<?php echo base_url(); ?>">BestInvestor</a>
+      <a class="navbar-brand" href="<?php echo base_url(); ?>"><b>INVESTMENT</b></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto mb-2 mb-md-0">
           <li class="nav-item active">
-            <a class="nav-link" aria-current="page">สำหรับสมาชิก</a>
+            <a class="nav-link" aria-current="page">บัญชีสมาชิก</a>
           </li>         
         </ul>
         <form class="d-flex" method="post" action=""> 
@@ -157,13 +157,13 @@
         <form class="d-flex align-right"> 
         <ul class="navbar-nav mr-auto mb-2 mb-md-0">
           <li class="nav-item active">
-            <a class="nav-link" aria-current="page">เปิดบัญชีใหม่</a>
+            <a class="nav-link" aria-current="page" href="<?php echo base_url(); ?>">เปิดบัญชีใหม่</a>
           </li>  
           <li class="nav-item active">
-            <a class="nav-link" aria-current="page">เงื่อนไขการบริการ</a>
+            <a class="nav-link" aria-current="page" href="<?php echo base_url(); ?>">เงื่อนไขการบริการ</a>
           </li> 
           <li class="nav-item active">
-            <a class="nav-link" aria-current="page">ฉันลืมรหัสผ่านเข้าบัญชี</a>
+            <a class="nav-link" aria-current="page" href="<?php echo base_url(); ?>">ฉันลืมรหัสผ่านเข้าบัญชี</a>
           </li>         
         </ul>    
         </form>
