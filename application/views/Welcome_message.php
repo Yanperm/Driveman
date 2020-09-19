@@ -200,11 +200,9 @@
             <input type="text" class="form-control" id="recipient-name" placeholder="ชื่อบัญชีผู้ใช้งาน">
           </div>
           <div class="mb-3">
-            <label for="recipient-name" class="col-form-label">บัญชีอีเมล์</label>
             <input type="text" class="form-control" id="recipient-name" placeholder="กรอกบัญชีอีเมล์">
           </div>
           <div class="mb-3">
-            <label for="recipient-name" class="col-form-label">เบอร์โทรศัพท์</label>
             <input type="text" class="form-control" id="recipient-name" placeholder="กรอกเบอร์โทรศัพท์">
           </div>
         </form>
