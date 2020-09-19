@@ -195,7 +195,7 @@
 
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">นักวิเคราะห์การตลาด <span class="text-muted">Investor Marketing</span></h2>
+        <h2 class="featurette-heading">ที่ปรึกษาด้านการเงิน <span class="text-muted">Financial Advisor</span></h2>
         </div>
       <div class="col-md-5 order-md-1">
       <img src="<?php  echo base_url('assets/iconfinder_users-14_984106.svg'); ?>" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" />
@@ -207,13 +207,12 @@
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-      </div>
+        <h2 class="featurette-heading">การวางแผนการเงิน <span class="text-muted">Wealth management</span></h2>
+       </div>
       <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" role="img" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-
-      </div>
+      <img src="<?php  echo base_url('assets/iconfinder_users-14_984106.svg'); ?>" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" />
+        
+        </div>
     </div>
 
     <hr class="featurette-divider">
