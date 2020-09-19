@@ -17,6 +17,6 @@ Class Customer_model extends CI_Model{
     public function delete($id){
         $this->db->where('customer_id', $id);
         $this->db->delete('tbcustomer');
-        redirect(base_url('welcome/success'));	
+        redirect(base_url('app/success'));	
     }
 }
