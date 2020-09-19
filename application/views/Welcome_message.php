@@ -146,7 +146,7 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto mb-2 mb-md-0">
           <li class="nav-item active">
-            <a class="nav-link" aria-current="page">บัญชีสมาชิก</a>
+            <a class="nav-link" aria-current="page"><b>บัญชีสมาชิก</b></a>
           </li>         
         </ul>
         <form class="d-flex" method="post" action=""> 
