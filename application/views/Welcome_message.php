@@ -158,13 +158,13 @@
         <form class="d-flex align-right"> 
         <ul class="navbar-nav mr-auto mb-2 mb-md-0">
           <li class="nav-item active">
-            <a class="nav-link" aria-current="page" data-toggle="modal" data-target="#staticBackdrop">เปิดบัญชีใหม่</a>
+            <a class="nav-link" aria-current="page" href="" data-toggle="modal" data-target="#staticBackdrop">เปิดบัญชีใหม่</a>
           </li>  
           <li class="nav-item active">
-            <a class="nav-link" aria-current="page" data-toggle="modal" data-target="#staticInfo">เงื่อนไขการบริการ</a>
+            <a class="nav-link" aria-current="page" href="" data-toggle="modal" data-target="#staticInfo">เงื่อนไขการบริการ</a>
           </li> 
           <li class="nav-item active">
-            <a class="nav-link" aria-current="page" href="<?php echo base_url(); ?>">ฉันลืมรหัสผ่านเข้าบัญชี</a>
+            <a class="nav-link" aria-current="page" href="" data-toggle="modal" data-target="#staticForget">ฉันลืมรหัสผ่านเข้าบัญชี</a>
           </li>         
         </ul>    
         </form>
@@ -217,11 +217,37 @@
 <!-- ลงทะเบียน -->
 
  <!-- เงื่อนไขการให้บริการ -->
- <div class="modal fade" id="staticInfo" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+ <div class="modal fade" id="staticForget" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="staticBackdropLabel"><b>เงื่อนไขการให้บริการ</b></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <form>         
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">บัญชีอีเมล์สำหรับกู้บัญชี</label>
+            <input type="text" class="form-control" id="recipient-name" placeholder="กรอกบัญชีอีเมล์">
+          </div>         
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- เงื่อนไขการให้บริการ -->
+
+<!-- ลืมรหัสผ่าน -->
+<div class="modal fade" id="staticInfo" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel"><b>ลืมรหัสผ่าน</b></h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -235,7 +261,7 @@
     </div>
   </div>
 </div>
-<!-- เงื่อนไขการให้บริการ -->
+<!-- ลืมรหัสผ่าน -->
 
 
     <div class="row featurette">
