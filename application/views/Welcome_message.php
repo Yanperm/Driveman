@@ -161,7 +161,7 @@
             <a class="nav-link" aria-current="page" data-toggle="modal" data-target="#staticBackdrop">เปิดบัญชีใหม่</a>
           </li>  
           <li class="nav-item active">
-            <a class="nav-link" aria-current="page" href="<?php echo base_url(); ?>">เงื่อนไขการบริการ</a>
+            <a class="nav-link" aria-current="page" data-toggle="modal" data-target="#staticInfo">เงื่อนไขการบริการ</a>
           </li> 
           <li class="nav-item active">
             <a class="nav-link" aria-current="page" href="<?php echo base_url(); ?>">ฉันลืมรหัสผ่านเข้าบัญชี</a>
@@ -186,7 +186,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="staticBackdropLabel">เปิดบัญชีใหม่</h5>
+        <h5 class="modal-title" id="staticBackdropLabel"><b>เปิดบัญชีลงทุนใหม่</b></h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -215,6 +215,27 @@
   </div>
 </div>
 <!-- ลงทะเบียน -->
+
+ <!-- เงื่อนไขการให้บริการ -->
+ <div class="modal fade" id="staticInfo" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel"><b>เงื่อนไขการให้บริการ</b></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- เงื่อนไขการให้บริการ -->
 
 
     <div class="row featurette">
