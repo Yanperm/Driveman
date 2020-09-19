@@ -161,6 +161,9 @@
           </li>  
           <li class="nav-item active">
             <a class="nav-link" aria-current="page">เงื่อนไขการบริการ</a>
+          </li> 
+          <li class="nav-item active">
+            <a class="nav-link" aria-current="page">ฉันลืมรหัสผ่านเข้าบัญชี</a>
           </li>         
         </ul>    
         </form>
