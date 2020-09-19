@@ -184,7 +184,7 @@
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">นักวิเคราะห์การตลาด <span class="text-muted">Investor Marketing</span></h2>
+        <h2 class="featurette-heading">นักวิเคราะห์การตลาด <br/><span class="text-muted">Investor Marketing</span></h2>
          </div>
       <div class="col-md-5">
        <img src="<?php  echo base_url('assets/iconfinder_users-2_984102.svg'); ?>" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" />
@@ -195,7 +195,7 @@
 
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">ที่ปรึกษาด้านการเงิน <span class="text-muted">Financial Advisor</span></h2>
+        <h2 class="featurette-heading">ที่ปรึกษาด้านการเงิน <br/><span class="text-muted">Financial Advisor</span></h2>
         </div>
       <div class="col-md-5 order-md-1">
       <img src="<?php  echo base_url('assets/iconfinder_users-14_984106.svg'); ?>" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" />
@@ -207,7 +207,7 @@
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">การวางแผนการเงิน <span class="text-muted">Wealth management</span></h2>
+        <h2 class="featurette-heading">การวางแผนการเงิน <br/> <span class="text-muted">Wealth management</span></h2>
        </div>
       <div class="col-md-5">
       <img src="<?php  echo base_url('assets/iconfinder_users-14_984106.svg'); ?>" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" />
