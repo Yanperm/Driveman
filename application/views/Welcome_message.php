@@ -226,21 +226,18 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body">
-      <form>
-          <div class="mb-3">
-            <label for="recipient-name" class="col-form-label">ชื่อบัญชีผู้ใช้งาน</label>
-            <input type="text" class="form-control" id="recipient-name" placeholder="ชื่อบัญชีผู้ใช้งาน">
-          </div>
-          <div class="mb-3">
-            <label for="recipient-name" class="col-form-label">บัญชีอีเมล์</label>
-            <input type="text" class="form-control" id="recipient-name" placeholder="กรอกบัญชีอีเมล์">
-          </div>
-          <div class="mb-3">
-            <label for="recipient-name" class="col-form-label">เบอร์โทรศัพท์</label>
-            <input type="text" class="form-control" id="recipient-name" placeholder="กรอกเบอร์โทรศัพท์">
-          </div>
-        </form>
+      <div class="modal-body text-justify">
+      การเชื่อมโยงกับเว็บไซต์ของบุคคลที่สามผ่านเว็บไซต์
+      เป็นสิ่งที่อยู่ภายใต้ความเสี่ยงของท่านเอง เนื้อหาสาระ ความถูกต้อง 
+      การแสดงความคิดเห็น และการเชื่อมต่ออื่นใด ที่จัดสรรขึ้นภายใต้เว็บไซต์นี้ 
+      เป็นเพียงการให้บริการเพื่อความสะดวกเท่านั้น ดังนั้น 
+      จึงไม่มีอำนาจควบคุม รับรอง ยืนยันความถูกต้องหรือความครบถ้วน 
+      หรือความสมบูรณ์ หรือความต่อเนื่อง หรือความเป็นปัจจุบัน ความน่าเชื่อถือ 
+      หรือรับผิดชอบในเนื้อหาข้อมูลของเว็บไซต์ของบุคคลที่สาม นอกจากนี้ 
+      ข้อมูลดังกล่าวอาจมีข้อจำกัดในการที่ท่านจะนำไปเผยแพร่อีกต่อหนึ่งตามกฎหมายลิขสิทธิ์ 
+      ดังนั้น ท่านจะต้องติดต่อขออนุญาตใช้ลิขสิทธิ์ในข้อมูลดังกล่าวจากเจ้าของข้อมูลโดยตรง ทั้งนี้ 
+      เงื่อนไขข้อตกลงการใช้บริการ การใช้งานระหว่างประเทศ การตีความ 
+      และการบังคับใช้ให้เป็นไปตามกฎหมายของประเทศไทย
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
