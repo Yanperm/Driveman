@@ -194,22 +194,22 @@
       <div class="modal-body">
       <form>
           <div class="mb-3">
-            <label for="recipient-name" class="col-form-label">ชื่อ-นามสกุล</label>
-            <input type="text" class="form-control" id="recipient-name">
+            <label for="recipient-name" class="col-form-label">ชื่อบัญชีผู้ใช้งาน</label>
+            <input type="text" class="form-control" id="recipient-name" placeholder="ชื่อบัญชีผู้ใช้งาน">
           </div>
           <div class="mb-3">
             <label for="recipient-name" class="col-form-label">บัญชีอีเมล์</label>
-            <input type="text" class="form-control" id="recipient-name">
+            <input type="text" class="form-control" id="recipient-name" placeholder="กรอกบัญชีอีเมล์">
           </div>
           <div class="mb-3">
-            <label for="recipient-name" class="col-form-label">รหัสผ่าน</label>
-            <input type="text" class="form-control" id="recipient-name">
+            <label for="recipient-name" class="col-form-label">เบอร์โทรศัพท์</label>
+            <input type="text" class="form-control" id="recipient-name" placeholder="กรอกเบอร์โทรศัพท์">
           </div>
         </form>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">เปิดบัญชี</button>
+        <button type="button" class="btn btn-outline-success">เปิดบัญชีใหม่</button>
       </div>
     </div>
   </div>
