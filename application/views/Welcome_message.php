@@ -196,7 +196,7 @@
       <div class="modal-body">
       <form>
           <div class="mb-3">
-            <label for="recipient-name" class="col-form-label">ชื่อบัญชีผู้ใช้งาน</label>
+            <label for="recipient-name" class="col-form-label">รายละเอียดบัญชีผู้ใช้งาน</label>
             <input type="text" class="form-control" id="recipient-name" placeholder="ชื่อบัญชีผู้ใช้งาน">
           </div>
           <div class="mb-3">
