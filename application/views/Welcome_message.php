@@ -151,9 +151,9 @@
             <a class="nav-link" aria-current="page"><b>บัญชีสมาชิก</b></a>
           </li>         
         </ul>
-        <form class="d-flex" method="post" action=""> 
-          <input class="form-control mr-2" type="search" min_length="10" max_length="10" placeholder="Username" required>
-          <input class="form-control mr-2" type="search" min_length="10" max_length="10" placeholder="Password" required>
+        <form class="d-flex" method="post" action="<?php echo base_url('customer/SignIn'); ?>"> 
+          <input class="form-control mr-2" type="search" min_length="10" name="username" max_length="10" placeholder="Username" required>
+          <input class="form-control mr-2" type="search" min_length="10" name="password" max_length="10" placeholder="Password" required>
           <button class="btn btn-success" type="submit">Login</button>
         </form>
         <hr/>
