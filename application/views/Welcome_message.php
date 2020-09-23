@@ -183,16 +183,16 @@
             <a class="nav-link" aria-current="page"><b><?php echo $this->session->userdata('username'); ?></b></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" aria-current="page" href="" data-toggle="modal" data-target="#staticBackdrop">เปิดบัญชีเครือข่าย</a>
+            <a class="nav-link" aria-current="page" href="" data-toggle="modal" data-target="#Network">เปิดบัญชีเครือข่าย</a>
           </li> 
           <li class="nav-item active">
-            <a class="nav-link" aria-current="page" href="" data-toggle="modal" data-target="#staticBackdrop">ฝากเงิน</a>
+            <a class="nav-link" aria-current="page" href="" data-toggle="modal" data-target="#Deposit">ฝากเงิน</a>
           </li>   
           <li class="nav-item active">
-            <a class="nav-link" aria-current="page" href="" data-toggle="modal" data-target="#staticBackdrop">ถอนเงิน</a>
+            <a class="nav-link" aria-current="page" href="" data-toggle="modal" data-target="#Withdraw">ถอนเงิน</a>
           </li>   
           <li class="nav-item active">
-            <a class="nav-link" aria-current="page" href="" data-toggle="modal" data-target="#staticBackdrop">คอมมิชชั่น</a>
+            <a class="nav-link" aria-current="page" href="" data-toggle="modal" data-target="#Commission">คอมมิชชั่น</a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" aria-current="page" href="<?php echo base_url('Customer/logout'); ?>">ออกจากระบบ</a>
@@ -236,6 +236,42 @@
           </div>
           <div class="mb-3">
             <input type="text" class="form-control" name="customer_phone" id="recipient-name" placeholder="กรอกเบอร์โทรศัพท์" required>
+          </div>
+          <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-outline-success">เปิดบัญชีใหม่</button>
+      </div>
+        </form>
+      </div>
+     
+    </div>
+  </div>
+</div>
+
+<!-- ลงทะเบียนเครือข่าย -->
+<div class="modal fade" id="Network" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel"><b>เปิดบัญชีลงทุนใหม่</b></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <form action="<?php echo base_url('customer/Signup'); ?>" method="post">
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">รายละเอียดบัญชีผู้ใช้งาน</label>
+            <input type="text" class="form-control" name="customer_name" id="recipient-name" placeholder="ชื่อบัญชีผู้ใช้งาน" required>
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" name="customer_email" id="recipient-name" placeholder="กรอกบัญชีอีเมล์" required>
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" name="customer_phone" id="recipient-name" placeholder="กรอกเบอร์โทรศัพท์" required>
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" name="customer_code" value="<?php echo $this->session->userdata('code'); ?>" id="recipient-name" placeholder="รหัสผู้แนะนำ" required>
           </div>
           <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

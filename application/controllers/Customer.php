@@ -23,6 +23,7 @@ class Customer extends CI_controller{
         $row = $query->row();
         if ($query->num_rows() > 0) {
             $this->session->set_userdata('username', $row->customer_email);
+            $this->session->set_userdata('code', $row->customer_id);
             redirect(base_url('app'));
         } else {
             redirect(base_url('app'));
