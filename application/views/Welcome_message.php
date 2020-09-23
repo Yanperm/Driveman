@@ -156,8 +156,8 @@
           
         ?>
         <form class="d-flex" method="post" action="<?php echo base_url('customer/SignIn'); ?>"> 
-          <input class="form-control mr-2" type="search" min_length="10" name="username" max_length="10" placeholder="Username" required>
-          <input class="form-control mr-2" type="search" min_length="10" name="password" max_length="10" placeholder="Password" required>
+          <input class="form-control mr-2" type="search" min_length="10" name="username" max_length="10" placeholder="อีเมล์" required>
+          <input class="form-control mr-2" type="search" min_length="10" name="password" max_length="10" placeholder="เบอร์โทรศัพท์" required>
           <button class="btn btn-success" type="submit">Login</button>
         </form>
         <hr/>
