@@ -271,7 +271,7 @@
             <input type="text" class="form-control" name="customer_phone" id="recipient-name" placeholder="กรอกเบอร์โทรศัพท์" required>
           </div>
           <div class="mb-3">
-            <input type="text" class="form-control" name="customer_code" value="<?php echo $this->session->userdata('code'); ?>" id="recipient-name" placeholder="รหัสผู้แนะนำ" required>
+            <input type="text" class="form-control" name="customer_code" value="<?php echo $this->session->userdata('code'); ?>" id="recipient-name" readonly placeholder="รหัสผู้แนะนำ" required>
           </div>
           <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
