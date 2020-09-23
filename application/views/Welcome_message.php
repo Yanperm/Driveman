@@ -151,6 +151,10 @@
             <a class="nav-link" aria-current="page"><b>บัญชีสมาชิก</b></a>
           </li>         
         </ul>
+        <?php
+          if($this->session->userdata('username')== null){
+          
+        ?>
         <form class="d-flex" method="post" action="<?php echo base_url('customer/SignIn'); ?>"> 
           <input class="form-control mr-2" type="search" min_length="10" name="username" max_length="10" placeholder="Username" required>
           <input class="form-control mr-2" type="search" min_length="10" name="password" max_length="10" placeholder="Password" required>
@@ -170,6 +174,34 @@
           </li>         
         </ul>    
         </form>
+            <?php 
+            }else{
+            ?>
+            <form class="d-flex"> 
+            <ul class="navbar-nav mr-auto mb-2 mb-md-0">
+          <li class="nav-item active">
+            <a class="nav-link" aria-current="page"><b><?php echo $this->session->userdata('username'); ?></b></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" aria-current="page" href="" data-toggle="modal" data-target="#staticBackdrop">เปิดบัญชีเครือข่าย</a>
+          </li> 
+          <li class="nav-item active">
+            <a class="nav-link" aria-current="page" href="" data-toggle="modal" data-target="#staticBackdrop">ฝากเงิน</a>
+          </li>   
+          <li class="nav-item active">
+            <a class="nav-link" aria-current="page" href="" data-toggle="modal" data-target="#staticBackdrop">ถอนเงิน</a>
+          </li>   
+          <li class="nav-item active">
+            <a class="nav-link" aria-current="page" href="" data-toggle="modal" data-target="#staticBackdrop">คอมมิชชั่น</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" aria-current="page" href="<?php echo base_url('Customer/logout'); ?>">ออกจากระบบ</a>
+          </li>        
+        </ul>          
+        </form>        
+        <?php 
+            }
+            ?>
       </div>
     </div>
   </nav>
