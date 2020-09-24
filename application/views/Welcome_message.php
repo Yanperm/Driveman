@@ -36,28 +36,6 @@
         -ms-user-select: none;
         user-select: none;
       }
-      .digit-group {
-	input {
-		width: 30px;
-		height: 50px;
-		background-color: lighten($BaseBG, 5%);
-		border: none;
-		line-height: 50px;
-		text-align: center;
-		font-size: 24px;
-		font-family: 'Raleway', sans-serif;
-		font-weight: 200;
-		color: white;
-		margin: 0 2px;
-	}
-
-	.splitter {
-		padding: 0 5px;
-		color: white;
-		font-size: 24px;
-	}
-}
-
       .text-justify {
   text-align: justify;
 }
@@ -154,32 +132,7 @@
 }
     </style>
 
-    <script>
-    $('.digit-group').find('input').each(function() {
-	$(this).attr('maxlength', 1);
-	$(this).on('keyup', function(e) {
-		var parent = $($(this).parent());
-		
-		if(e.keyCode === 8 || e.keyCode === 37) {
-			var prev = parent.find('input#' + $(this).data('previous'));
-			
-			if(prev.length) {
-				$(prev).select();
-			}
-		} else if((e.keyCode >= 48 && e.keyCode <= 57) || (e.keyCode >= 65 && e.keyCode <= 90) || (e.keyCode >= 96 && e.keyCode <= 105) || e.keyCode === 39) {
-			var next = parent.find('input#' + $(this).data('next'));
-			
-			if(next.length) {
-				$(next).select();
-			} else {
-				if(parent.data('autosubmit')) {
-					parent.submit();
-				}
-			}
-		}
-	});
-});
-    </script>
+    
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
   </head>
@@ -320,17 +273,6 @@
           <div class="mb-3">
             <label for="recipient-name" class="col-form-label">หมายเลขประจำตัวผู้แนะนำ</label>
             <input type="text" class="form-control bg-transparent" name="customer_code" value="<?php echo $this->session->userdata('code'); ?>" id="recipient-name" readonly placeholder="รหัสผู้แนะนำ" required>
-          </div>
-          <div class="mb-3">
-          <form method="get" class="digit-group" data-group-name="digits" data-autosubmit="false" autocomplete="off">
-	<input type="text" id="digit-1" name="digit-1" data-next="digit-2" />
-	<input type="text" id="digit-2" name="digit-2" data-next="digit-3" data-previous="digit-1" />
-	<input type="text" id="digit-3" name="digit-3" data-next="digit-4" data-previous="digit-2" />
-	<span class="splitter">&ndash;</span>
-	<input type="text" id="digit-4" name="digit-4" data-next="digit-5" data-previous="digit-3" />
-	<input type="text" id="digit-5" name="digit-5" data-next="digit-6" data-previous="digit-4" />
-	<input type="text" id="digit-6" name="digit-6" data-previous="digit-5" />
-</form>
           </div>
           <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
