@@ -314,11 +314,14 @@
         }
       }
     </script>
-    <label for="recipient-name" class="col-form-label"><b>OTP Confirmation</b></label>
+    <center>
+    <label for="recipient-name" class="col-form-label"><b>OTP Confirmation</b></label><br/>
     <input id="codeBox1" type="number" maxlength="1" onkeyup="onKeyUpEvent(1, event)" onfocus="onFocusEvent(1)"/>
         <input id="codeBox2" type="number" maxlength="1" onkeyup="onKeyUpEvent(2, event)" onfocus="onFocusEvent(2)"/>
         <input id="codeBox3" type="number" maxlength="1" onkeyup="onKeyUpEvent(3, event)" onfocus="onFocusEvent(3)"/>
-        <input id="codeBox4" type="number" maxlength="1" onkeyup="onKeyUpEvent(4, event)" onfocus="onFocusEvent(4)"/><br/>
+        <input id="codeBox4" type="number" maxlength="1" onkeyup="onKeyUpEvent(4, event)" onfocus="onFocusEvent(4)"/>
+        </center>
+        <br/>
             <label for="recipient-name" class="col-form-label">หมายเลขประจำตัวผู้แนะนำ</label>
             <input type="text" class="form-control bg-transparent" name="customer_code" value="<?php echo $this->session->userdata('code'); ?>" id="recipient-name" readonly placeholder="รหัสผู้แนะนำ" required>
           </div>
