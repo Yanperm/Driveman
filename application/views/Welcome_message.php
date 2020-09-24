@@ -292,7 +292,7 @@
       function onKeyUpEvent(index, event) {
         const eventCode = event.which || event.keyCode;
         if (getCodeBoxElement(index).value.length === 1) {
-          if (index !== 4) {
+          if (index !== 6) {
             getCodeBoxElement(index+ 1).focus();
           } else {
             getCodeBoxElement(index).blur();
@@ -320,6 +320,8 @@
         <input id="codeBox2" type="number" maxlength="1" onkeyup="onKeyUpEvent(2, event)" onfocus="onFocusEvent(2)"/>
         <input id="codeBox3" type="number" maxlength="1" onkeyup="onKeyUpEvent(3, event)" onfocus="onFocusEvent(3)"/>
         <input id="codeBox4" type="number" maxlength="1" onkeyup="onKeyUpEvent(4, event)" onfocus="onFocusEvent(4)"/>
+        <input id="codeBox5" type="number" maxlength="1" onkeyup="onKeyUpEvent(5, event)" onfocus="onFocusEvent(5)"/>
+        <input id="codeBox6" type="number" maxlength="1" onkeyup="onKeyUpEvent(6, event)" onfocus="onFocusEvent(6)"/>
         </center>
         <br/>
             <label for="recipient-name" class="col-form-label">หมายเลขประจำตัวผู้แนะนำ</label>
