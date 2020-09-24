@@ -261,7 +261,7 @@
       <div class="modal-body">
       <form action="<?php echo base_url('customer/Signup'); ?>" method="post">
           <div class="mb-3">
-            <label for="recipient-name" class="col-form-label">รายละเอียดบัญชีผู้ใช้งาน</label>
+            <label for="recipient-name" class="col-form-label"><b>รายละเอียดบัญชีผู้ใช้งาน</b></label>
             <input type="text" class="form-control" name="customer_name" id="recipient-name" placeholder="ชื่อบัญชีผู้ใช้งาน" required>
           </div>
           <div class="mb-3">
@@ -314,6 +314,7 @@
         }
       }
     </script>
+    <label for="recipient-name" class="col-form-label"><b>OTP Confirmation</b></label>
     <input id="codeBox1" type="number" maxlength="1" onkeyup="onKeyUpEvent(1, event)" onfocus="onFocusEvent(1)"/>
         <input id="codeBox2" type="number" maxlength="1" onkeyup="onKeyUpEvent(2, event)" onfocus="onFocusEvent(2)"/>
         <input id="codeBox3" type="number" maxlength="1" onkeyup="onKeyUpEvent(3, event)" onfocus="onFocusEvent(3)"/>
