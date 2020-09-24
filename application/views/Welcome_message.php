@@ -271,9 +271,57 @@
             <input type="text" class="form-control" name="customer_phone" id="recipient-name" placeholder="กรอกเบอร์โทรศัพท์" required>
           </div>
           <div class="mb-3">
+          <style>
+      input[type=number] {
+          height: 45px;
+          width: 45px;
+          font-size: 25px;
+          text-align: center;
+          border: 1px solid #000000;
+      }
+      input[type=number]::-webkit-inner-spin-button,
+      input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+    </style>
+    <script>
+      function getCodeBoxElement(index) {
+        return document.getElementById('codeBox' + index);
+      }
+      function onKeyUpEvent(index, event) {
+        const eventCode = event.which || event.keyCode;
+        if (getCodeBoxElement(index).value.length === 1) {
+          if (index !== 4) {
+            getCodeBoxElement(index+ 1).focus();
+          } else {
+            getCodeBoxElement(index).blur();
+            // Submit code
+            console.log('submit code ');
+          }
+        }
+        if (eventCode === 8 && index !== 1) {
+          getCodeBoxElement(index - 1).focus();
+        }
+      }
+      function onFocusEvent(index) {
+        for (item = 1; item < index; item++) {
+          const currentElement = getCodeBoxElement(item);
+          if (!currentElement.value) {
+              currentElement.focus();
+              break;
+          }
+        }
+      }
+    </script>
+    <input id="codeBox1" type="number" maxlength="1" onkeyup="onKeyUpEvent(1, event)" onfocus="onFocusEvent(1)"/>
+        <input id="codeBox2" type="number" maxlength="1" onkeyup="onKeyUpEvent(2, event)" onfocus="onFocusEvent(2)"/>
+        <input id="codeBox3" type="number" maxlength="1" onkeyup="onKeyUpEvent(3, event)" onfocus="onFocusEvent(3)"/>
+        <input id="codeBox4" type="number" maxlength="1" onkeyup="onKeyUpEvent(4, event)" onfocus="onFocusEvent(4)"/>
             <label for="recipient-name" class="col-form-label">หมายเลขประจำตัวผู้แนะนำ</label>
             <input type="text" class="form-control bg-transparent" name="customer_code" value="<?php echo $this->session->userdata('code'); ?>" id="recipient-name" readonly placeholder="รหัสผู้แนะนำ" required>
           </div>
+
           <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
         <button type="submit" class="btn btn-outline-success">เปิดบัญชีใหม่</button>
