@@ -315,7 +315,7 @@
       }
     </script>
     <center>
-    <label for="recipient-name" class="col-form-label"><b>OTP Confirmation</b></label><br/>
+    <label for="recipient-name" class="col-form-label"><b>กรอกรหัส OTP ที่ได้รับจากอีเมล์เพื่อยืนยันบัญชี</b></label><br/>
     <input id="codeBox1" type="number" maxlength="1" onkeyup="onKeyUpEvent(1, event)" onfocus="onFocusEvent(1)"/>
         <input id="codeBox2" type="number" maxlength="1" onkeyup="onKeyUpEvent(2, event)" onfocus="onFocusEvent(2)"/>
         <input id="codeBox3" type="number" maxlength="1" onkeyup="onKeyUpEvent(3, event)" onfocus="onFocusEvent(3)"/>
@@ -324,7 +324,7 @@
         <input id="codeBox6" type="number" maxlength="1" onkeyup="onKeyUpEvent(6, event)" onfocus="onFocusEvent(6)"/>
         </center>
         <br/>
-            <label for="recipient-name" class="col-form-label">หมายเลขประจำตัวผู้แนะนำ</label>
+            <label for="recipient-name" class="col-form-label"><b>หมายเลขประจำตัวผู้แนะนำ</b></label>
             <input type="text" class="form-control bg-transparent" name="customer_code" value="<?php echo $this->session->userdata('code'); ?>" id="recipient-name" readonly placeholder="รหัสผู้แนะนำ" required>
           </div>
 
