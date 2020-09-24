@@ -277,7 +277,7 @@
           width: 45px;
           font-size: 25px;
           text-align: center;
-          border: 1px solid #000000;
+          border: 1px solid #c0c0c0;
       }
       input[type=number]::-webkit-inner-spin-button,
       input[type=number]::-webkit-outer-spin-button {
@@ -317,7 +317,7 @@
     <input id="codeBox1" type="number" maxlength="1" onkeyup="onKeyUpEvent(1, event)" onfocus="onFocusEvent(1)"/>
         <input id="codeBox2" type="number" maxlength="1" onkeyup="onKeyUpEvent(2, event)" onfocus="onFocusEvent(2)"/>
         <input id="codeBox3" type="number" maxlength="1" onkeyup="onKeyUpEvent(3, event)" onfocus="onFocusEvent(3)"/>
-        <input id="codeBox4" type="number" maxlength="1" onkeyup="onKeyUpEvent(4, event)" onfocus="onFocusEvent(4)"/>
+        <input id="codeBox4" type="number" maxlength="1" onkeyup="onKeyUpEvent(4, event)" onfocus="onFocusEvent(4)"/><br/>
             <label for="recipient-name" class="col-form-label">หมายเลขประจำตัวผู้แนะนำ</label>
             <input type="text" class="form-control bg-transparent" name="customer_code" value="<?php echo $this->session->userdata('code'); ?>" id="recipient-name" readonly placeholder="รหัสผู้แนะนำ" required>
           </div>
