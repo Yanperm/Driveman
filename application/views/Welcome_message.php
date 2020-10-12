@@ -24,6 +24,7 @@
 <link rel="manifest" href="/docs/5.0/assets/img/favicons/manifest.json">
 <link rel="mask-icon" href="/docs/5.0/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
 <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon.ico">
+<link rel="stylesheet" href="<?php echo base_url('assets/font-awesome/css/font-awesome.css') ?>"/>
 <meta name="theme-color" content="#7952b3">
 
 
@@ -181,7 +182,7 @@
             <ul class="navbar-nav mr-auto mb-2 mb-md-0">
           <li class="nav-item active">
             <a class="nav-link" aria-current="page"><b class="text-light">
-            <img src="<?php echo base_url('img/user.svg') ?>"/>
+            <i class="fa fa-user"></i>
             <?php echo $this->session->userdata('username'); ?>
             </b>
             </a>
