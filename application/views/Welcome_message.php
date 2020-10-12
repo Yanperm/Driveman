@@ -188,9 +188,9 @@
             </a>
           </li>
           <li class="nav-item active">
-            <div class="well">
-            <p class="text-light">เครดิตคงเหลือ</p>
-            <b class="text-warning"><h3>0</h3>.00</b>
+            <div class="well border border-light">
+            <b class="text-light">เครดิตคงเหลือ</b> <br/>
+            <b class="text-warning"><h3>0.00</h3></b>
             </div>
           </li> 
           <li>
