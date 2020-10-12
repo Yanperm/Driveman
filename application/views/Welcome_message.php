@@ -216,10 +216,10 @@
      <button class="btn btn-danger btn-lg btn-block">ระบบแนะนำ</button>
     </div>
     <div class="col-sm">
-    <button class="btn btn-danger btn-lg btn-block">รายการสมาชิก</button>
+    <button class="btn btn-danger btn-lg btn-block">สมาชิก</button>
     </div>
     <div class="col-sm">
-    <button class="btn btn-danger btn-lg btn-block">รายการรายได้</button>
+    <button class="btn btn-danger btn-lg btn-block">รายได้</button>
     </div>
     
   </div>
