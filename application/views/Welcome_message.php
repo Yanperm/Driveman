@@ -186,6 +186,7 @@
             <?php echo $this->session->userdata('username'); ?>
             </b>
             </a>
+            <a class="nav-link" aria-current="page" href="<?php echo base_url('Customer/logout'); ?>"><b> <i class="fa fa-lock"></i> ออกจากระบบ</b></a>
           </li>
           <li class="nav-item active">
             <div class="well well-sm">
@@ -196,36 +197,26 @@
           <div class="container">       
               <div class="row g-2">
                 <div class="col-6">
-                  <div class="p-3 border border-light bg-success text-light text-center"><b>ฝากเงิน</b></div>
+                  <div class="p-3 border border-light bg-success text-light text-center">
+                  <a class="nav-link" aria-current="page" href="" data-toggle="modal" data-target="#Deposit"><b>ฝากเงิน</b></a>
+                  </div>
                 </div>
                 <div class="col-6">
-                  <div class="p-3 border border-light bg-warning text-light text-center"><b>ถอนเงิน</b></div>
+                  <div class="p-3 border border-light bg-warning text-light text-center">
+                  <a class="nav-link" aria-current="page" href="" data-toggle="modal" data-target="#Withdraw"><b>ถอนเงิน</b></a>
+                  </div>
                 </div>
                 <div class="col-6">
-                  <div class="p-3 border border-light bg-info text-light text-center"><b>รายการสมาชิก</b></div>
+                  <div class="p-3 border border-light bg-info text-light text-center">
+                  <a class="nav-link" aria-current="page" href="" data-toggle="modal" data-target="#Network"><b>รายการสมาชิก</b></a>                  
+                  </div>
                 </div>
                 <div class="col-6">
                   <div class="p-3 border border-light bg-info text-light text-center"><b>รายการรายได้</b></div>
                 </div>
               </div>
             </div>
-          </li>  
-          <li class="nav-item active hidden">
-            <a class="nav-link" aria-current="page" href="" data-toggle="modal" data-target="#Network"><b>เปิดบัญชีเครือข่าย</b></a>
           </li> 
-          <li class="nav-item active hidden">
-            <a class="nav-link" aria-current="page" href="" data-toggle="modal" data-target="#Deposit"><b>ฝากเงิน</b></a>
-          </li>   
-          <li class="nav-item active hidden">
-            <a class="nav-link" aria-current="page" href="" data-toggle="modal" data-target="#Withdraw"><b>ถอนเงิน</b></a>
-          </li>   
-          <li class="nav-item active hidden">
-            <a class="nav-link" aria-current="page" href="" data-toggle="modal" data-target="#Commission"><b>คอมมิชชั่น</b></a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" aria-current="page" href="<?php echo base_url('Customer/logout'); ?>"><b> <i class="fa fa-lock"></i> ออกจากระบบ</b></a>
-          </li>    
-            
         </ul> 
         
 
