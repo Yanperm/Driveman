@@ -196,12 +196,12 @@
           </li>
           <li class="nav-item active">
             <a class="nav-link" aria-current="page" href="<?php echo base_url('Customer/logout'); ?>"><b>ออกจากระบบ</b></a>
-          </li> 
-          <li>
-          <div class="container">
+          </li>        
+        </ul> 
+        <div class="container">
   <div class="row">    
     <div class="col-sm">
-     <button class="btn btn-warning btn-lg btn-block">แนะนำ</button>
+     <button class="btn btn-warning btn-lg btn-block">ระบบแนะนำ</button>
     </div>
     <div class="col-sm">
     <button class="btn btn-success btn-lg btn-block">ฝากเงิน</button>
@@ -213,20 +213,17 @@
   <hr/>
   <div class="row">    
     <div class="col-sm">
-         
+     <button class="btn btn-danger btn-lg btn-block">ระบบแนะนำ</button>
     </div>
     <div class="col-sm">
-    <button class="btn btn-danger btn-lg btn-block">สมาชิก</button>
+    <button class="btn btn-danger btn-lg btn-block">รายการสมาชิก</button>
     </div>
     <div class="col-sm">
-    <button class="btn btn-danger btn-lg btn-block">รายได้</button>
+    <button class="btn btn-danger btn-lg btn-block">รายการรายได้</button>
     </div>
     
   </div>
 </div>         
-          </li>       
-        </ul> 
-        
         </form>        
         <?php 
             }
