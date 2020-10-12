@@ -188,23 +188,22 @@
             </a>
           </li>
           <li>
-          <div class="container">
-       
-  <div class="row g-2">
-    <div class="col-6">
-      <div class="p-3 border border-light bg-success text-light text-center"><b>ฝากเงิน</b></div>
-    </div>
-    <div class="col-6">
-      <div class="p-3 border border-light bg-success text-light text-center"><b>ถอนเงิน</b></div>
-    </div>
-    <div class="col-6">
-      <div class="p-3 border border-light bg-success text-light text-center"><b>รายการสมาชิก</b></div>
-    </div>
-    <div class="col-6">
-      <div class="p-3 border border-light bg-success text-light text-center"><b>รายการรายได้</b></div>
-    </div>
-  </div>
-</div>
+          <div class="container">       
+              <div class="row g-2">
+                <div class="col-6">
+                  <div class="p-3 border border-light bg-success text-light text-center"><b>ฝากเงิน</b></div>
+                </div>
+                <div class="col-6">
+                  <div class="p-3 border border-light bg-success text-light text-center"><b>ถอนเงิน</b></div>
+                </div>
+                <div class="col-6">
+                  <div class="p-3 border border-light bg-success text-light text-center"><b>รายการสมาชิก</b></div>
+                </div>
+                <div class="col-6">
+                  <div class="p-3 border border-light bg-success text-light text-center"><b>รายการรายได้</b></div>
+                </div>
+              </div>
+            </div>
           </li>  
           <li class="nav-item active hidden">
             <a class="nav-link" aria-current="page" href="" data-toggle="modal" data-target="#Network"><b>เปิดบัญชีเครือข่าย</b></a>
@@ -219,7 +218,7 @@
             <a class="nav-link" aria-current="page" href="" data-toggle="modal" data-target="#Commission"><b>คอมมิชชั่น</b></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" aria-current="page" href="<?php echo base_url('Customer/logout'); ?>"><b>ออกจากระบบ</b></a>
+            <a class="nav-link" aria-current="page" href="<?php echo base_url('Customer/logout'); ?>"><b> <i class="fa fa-lock"></i> ออกจากระบบ</b></a>
           </li>    
             
         </ul> 
