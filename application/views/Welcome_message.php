@@ -202,7 +202,7 @@
         <br/>
   <div class="row g-2">
     <div class="col-6">
-      <div class="p-3 border bg-light">ระบบแนะนำ</div>
+      <div class="p-3 border border-info bg-transparent">ระบบแนะนำ</div>
     </div>
     <div class="col-6">
       <div class="p-3 border bg-light">ฝากเงิน</div>
