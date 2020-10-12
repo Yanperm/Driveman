@@ -142,7 +142,7 @@
 <header>
   <nav class="navbar navbar-dark" style="background-color: #2C085F;">
     <div class="container">
-      <a class="navbar-brand" href="<?php echo base_url(); ?>"><b>Advisor</b></a>
+      <a class="navbar-brand" href="<?php echo base_url(); ?>"><b>โปรแกรมบริหารพอร์ตเงินทุน</b></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
