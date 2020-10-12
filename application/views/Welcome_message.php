@@ -187,6 +187,12 @@
             </b>
             </a>
           </li>
+          <li class="nav-item active">
+            <div class="wel">
+            เครดิตคงเหลือ <br/>
+            <b class="text-warning"><h4>0.00</h4></b>
+            </div>
+          </li> 
           <li>
           <div class="container">       
               <div class="row g-2">
