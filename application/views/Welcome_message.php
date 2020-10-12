@@ -141,7 +141,7 @@
 <header>
   <nav class="navbar navbar-dark" style="background-color: #2C085F;">
     <div class="container">
-      <a class="navbar-brand" href="<?php echo base_url(); ?>"><b>Financial Advisor</b></a>
+      <a class="navbar-brand" href="<?php echo base_url(); ?>"><b>Advisor</b></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -164,7 +164,7 @@
         <form class="d-flex align-right"> 
         <ul class="navbar-nav mr-auto mb-2 mb-md-0">
           <li class="nav-item active">
-            <a class="nav-link" aria-current="page" href="" data-toggle="modal" data-target="#staticBackdrop">เปิดบัญชีใหม่</a>
+            <a class="nav-link" aria-current="page" href="" data-toggle="modal" data-target="#staticBackdrop"><b>เปิดบัญชีใหม่</b></a>
           </li>  
           <li class="nav-item active">
             <a class="nav-link" aria-current="page" href="" data-toggle="modal" data-target="#staticInfo">เงื่อนไขการบริการ</a>
@@ -180,24 +180,61 @@
             <form class="d-flex"> 
             <ul class="navbar-nav mr-auto mb-2 mb-md-0">
           <li class="nav-item active">
-            <a class="nav-link" aria-current="page"><b><?php echo $this->session->userdata('username'); ?></b></a>
+            <a class="nav-link" aria-current="page"><b class="text-success"><?php echo $this->session->userdata('username'); ?></b></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" aria-current="page" href="" data-toggle="modal" data-target="#Network">เปิดบัญชีเครือข่าย</a>
+            <a class="nav-link" aria-current="page" href="" data-toggle="modal" data-target="#Network"><b>เปิดบัญชีเครือข่าย</b></a>
           </li> 
           <li class="nav-item active">
-            <a class="nav-link" aria-current="page" href="" data-toggle="modal" data-target="#Deposit">ฝากเงิน</a>
+            <a class="nav-link" aria-current="page" href="" data-toggle="modal" data-target="#Deposit"><b>ฝากเงิน</b></a>
           </li>   
           <li class="nav-item active">
-            <a class="nav-link" aria-current="page" href="" data-toggle="modal" data-target="#Withdraw">ถอนเงิน</a>
+            <a class="nav-link" aria-current="page" href="" data-toggle="modal" data-target="#Withdraw"><b>ถอนเงิน</b></a>
           </li>   
           <li class="nav-item active">
-            <a class="nav-link" aria-current="page" href="" data-toggle="modal" data-target="#Commission">คอมมิชชั่น</a>
+            <a class="nav-link" aria-current="page" href="" data-toggle="modal" data-target="#Commission"><b>คอมมิชชั่น</b></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" aria-current="page" href="<?php echo base_url('Customer/logout'); ?>">ออกจากระบบ</a>
+            <a class="nav-link" aria-current="page" href="<?php echo base_url('Customer/logout'); ?>"><b>ออกจากระบบ</b></a>
           </li>        
-        </ul>          
+        </ul> 
+        <div class="container">
+  <div class="row">
+    <div class="col-sm">
+      
+    </div>
+    <div class="col-sm">
+     <button class="btn btn-warning btn-lg btn-block">ระบบแนะนำ</button>
+    </div>
+    <div class="col-sm">
+    <button class="btn btn-success btn-lg btn-block">ฝากเงิน</button>
+    </div>
+    <div class="col-sm">
+    <button class="btn btn-primary btn-lg btn-block">ถอนเงิน</button>
+    </div>
+    <div class="col-sm">
+      
+    </div>
+  </div>
+  <hr/>
+  <div class="row">
+    <div class="col-sm">
+      
+    </div>
+    <div class="col-sm">
+     <button class="btn btn-danger btn-lg btn-block">ระบบแนะนำ</button>
+    </div>
+    <div class="col-sm">
+    <button class="btn btn-danger btn-lg btn-block">รายการสมาชิก</button>
+    </div>
+    <div class="col-sm">
+    <button class="btn btn-danger btn-lg btn-block">รายการรายได้</button>
+    </div>
+    <div class="col-sm">
+      
+    </div>
+  </div>
+</div>         
         </form>        
         <?php 
             }
@@ -391,6 +428,8 @@
 
 
     <div class="row featurette">
+   
+
       <div class="col-md-7">
         <h2 class="featurette-heading text-center">บริการให้คำปรึกษาด้านการลงทุน <br/><span class="text-muted">Investment Consulting service</span></h2>
          </div>
