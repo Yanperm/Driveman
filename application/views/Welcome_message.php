@@ -201,7 +201,7 @@
           <div class="container">
   <div class="row">    
     <div class="col-sm">
-     <button class="btn btn-warning btn-lg btn-block">ระบบแนะนำ</button>
+     <button class="btn btn-warning btn-lg btn-block">แนะนำ</button>
     </div>
     <div class="col-sm">
     <button class="btn btn-success btn-lg btn-block">ฝากเงิน</button>
@@ -213,7 +213,7 @@
   <hr/>
   <div class="row">    
     <div class="col-sm">
-     <button class="btn btn-danger btn-lg btn-block">ระบบแนะนำ</button>
+         
     </div>
     <div class="col-sm">
     <button class="btn btn-danger btn-lg btn-block">สมาชิก</button>
