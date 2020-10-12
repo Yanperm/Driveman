@@ -194,13 +194,13 @@
                   <div class="p-3 border border-light bg-success text-light text-center"><b>ฝากเงิน</b></div>
                 </div>
                 <div class="col-6">
-                  <div class="p-3 border border-light bg-success text-light text-center"><b>ถอนเงิน</b></div>
+                  <div class="p-3 border border-light bg-warning text-light text-center"><b>ถอนเงิน</b></div>
                 </div>
                 <div class="col-6">
-                  <div class="p-3 border border-light bg-success text-light text-center"><b>รายการสมาชิก</b></div>
+                  <div class="p-3 border border-light bg-info text-light text-center"><b>รายการสมาชิก</b></div>
                 </div>
                 <div class="col-6">
-                  <div class="p-3 border border-light bg-success text-light text-center"><b>รายการรายได้</b></div>
+                  <div class="p-3 border border-light bg-info text-light text-center"><b>รายการรายได้</b></div>
                 </div>
               </div>
             </div>
