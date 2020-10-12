@@ -196,13 +196,13 @@
           </li>
           <li class="nav-item active">
             <a class="nav-link" aria-current="page" href="<?php echo base_url('Customer/logout'); ?>"><b>ออกจากระบบ</b></a>
-          </li>        
-        </ul> 
-        <div class="container">
+          </li>    
+          <li>
+          <div class="container">
         <br/>
   <div class="row g-2">
     <div class="col-6">
-      <div class="p-3 border border-info bg-transparent">ระบบแนะนำ</div>
+      <div class="p-3 border border-light bg-success">ระบบแนะนำ</div>
     </div>
     <div class="col-6">
       <div class="p-3 border bg-light">ฝากเงิน</div>
@@ -215,6 +215,9 @@
     </div>
   </div>
 </div>
+          </li>    
+        </ul> 
+        
 
         </form>        
         <?php 
