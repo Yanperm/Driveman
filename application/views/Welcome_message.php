@@ -189,8 +189,7 @@
           </li>
           <li class="nav-item active">
             <div class="well well-sm">
-            <b class="text-light">&nbsp;&nbsp;&nbsp;เครดิตคงเหลือ</b>
-            <b class="text-warning">&nbsp;&nbsp;&nbsp;<dd><dd><h3>370,000.00</h3></b>
+            <b class="text-warning">&nbsp;&nbsp;&nbsp;เครดิตคงเหลือ <h3>370,000.00</h3</b>
             </div>
           </li> 
           <li>
