@@ -199,10 +199,7 @@
           </li>        
         </ul> 
         <div class="container">
-  <div class="row">
-    <div class="col-sm">
-      
-    </div>
+  <div class="row">    
     <div class="col-sm">
      <button class="btn btn-warning btn-lg btn-block">ระบบแนะนำ</button>
     </div>
@@ -211,16 +208,10 @@
     </div>
     <div class="col-sm">
     <button class="btn btn-primary btn-lg btn-block">ถอนเงิน</button>
-    </div>
-    <div class="col-sm">
-      
-    </div>
+    </div>    
   </div>
   <hr/>
-  <div class="row">
-    <div class="col-sm">
-      
-    </div>
+  <div class="row">    
     <div class="col-sm">
      <button class="btn btn-danger btn-lg btn-block">ระบบแนะนำ</button>
     </div>
@@ -230,9 +221,7 @@
     <div class="col-sm">
     <button class="btn btn-danger btn-lg btn-block">รายการรายได้</button>
     </div>
-    <div class="col-sm">
-      
-    </div>
+    
   </div>
 </div>         
         </form>        
