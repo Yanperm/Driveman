@@ -202,16 +202,16 @@
         <br/>
   <div class="row g-2">
     <div class="col-6">
-      <div class="p-3 border bg-light"><button class="btn btn-warning btn-lg btn-block">ระบบแนะนำ</button></div>
+      <div class="p-3 border bg-light">ระบบแนะนำ</div>
     </div>
     <div class="col-6">
-      <div class="p-3 border bg-light"><button class="btn btn-success btn-lg btn-block">ฝากเงิน</button></div>
+      <div class="p-3 border bg-light">ฝากเงิน</div>
     </div>
     <div class="col-6">
-      <div class="p-3 border bg-light"><button class="btn btn-primary btn-lg btn-block">ถอนเงิน</button></div>
+      <div class="p-3 border bg-light">ถอนเงิน</div>
     </div>
     <div class="col-6">
-      <div class="p-3 border bg-light"><button class="btn btn-danger btn-lg btn-block">รายการรายได้</button></div>
+      <div class="p-3 border bg-light">รายการรายได้</div>
     </div>
   </div>
 </div>
