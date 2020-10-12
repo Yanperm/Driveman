@@ -211,8 +211,9 @@
                   </div>
                 </div>
                 <div class="col-6">
-                <a class="nav-link" aria-current="page" href="" data-toggle="modal" data-target="#Commission"><b>รายการรายได้</b></a>
-                </div>
+                <div class="p-3 border border-light bg-info text-light text-center">
+                <a class="nav-link" aria-current="page" href="" data-toggle="modal" data-target="#Commission"><b>รายการรายได้</b></a>                 
+                  </div>
               </div>
             </div>
           </li>            
