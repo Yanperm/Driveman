@@ -186,7 +186,6 @@
             <?php echo $this->session->userdata('username'); ?>
             </b>
             </a>
-            <a class="nav-link" aria-current="page" href="<?php echo base_url('Customer/logout'); ?>"><b> <i class="fa fa-lock"></i> ออกจากระบบ</b></a>
           </li>
           <li class="nav-item active">
             <div class="well well-sm">
@@ -212,11 +211,15 @@
                   </div>
                 </div>
                 <div class="col-6">
-                  <div class="p-3 border border-light bg-info text-light text-center"><b>รายการรายได้</b></div>
+                <a class="nav-link" aria-current="page" href="" data-toggle="modal" data-target="#Commission"><b>รายการรายได้</b></a>
                 </div>
               </div>
             </div>
-          </li> 
+          </li>            
+          <li class="nav-item active">
+            <a class="nav-link" aria-current="page" href="<?php echo base_url('Customer/logout'); ?>"><b> <i class="fa fa-lock"></i> ออกจากระบบ</b></a>
+          </li>    
+            
         </ul> 
         
 
