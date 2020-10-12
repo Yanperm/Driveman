@@ -181,7 +181,7 @@
             <ul class="navbar-nav mr-auto mb-2 mb-md-0">
           <li class="nav-item active">
             <a class="nav-link" aria-current="page"><b class="text-light">
-            
+            <img src="<?php echo base_url('img/user.svg') ?>"/>
             <?php echo $this->session->userdata('username'); ?>
             </b>
             </a>
