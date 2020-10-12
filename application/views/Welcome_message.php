@@ -188,7 +188,7 @@
             </a>
           </li>
           <li class="nav-item active">
-            <div class="well border border-light">
+            <div class="well well-sm">
             <b class="text-light">เครดิตคงเหลือ</b> <br/>
             <b class="text-warning"><h3>0.00</h3></b>
             </div>
