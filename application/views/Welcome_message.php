@@ -157,8 +157,8 @@
           </li>         
         </ul>
         <form class="d-flex" method="post" action="<?php echo base_url('customer/SignIn'); ?>"> 
-          <input class="form-control mr-2" type="search" min_length="10" name="username" max_length="10" placeholder="อีเมล์" required>
-          <input class="form-control mr-2" type="search" min_length="10" name="password" max_length="10" placeholder="เบอร์โทรศัพท์" required>
+          <input class="form-control mr-2" type="search" min_length="10" name="username" max_length="10" value="partchayanan.y@softubon.com" placeholder="อีเมล์" required>
+          <input class="form-control mr-2" type="search" min_length="10" name="password" max_length="10" value="0863282586" placeholder="เบอร์โทรศัพท์" required>
           <button class="btn btn-success" type="submit">Login</button>
         </form>
         <hr/>
@@ -190,7 +190,7 @@
           <li class="nav-item active">
             <div class="well well-sm">
             <b class="text-light">&nbsp;&nbsp;&nbsp;เครดิตคงเหลือ</b>
-            <b class="text-warning">&nbsp;&nbsp;&nbsp;<h3>0.00</h3></b>
+            <b class="text-warning">&nbsp;&nbsp;&nbsp;<h3>170,000.00</h3></b>
             </div>
           </li> 
           <li>
