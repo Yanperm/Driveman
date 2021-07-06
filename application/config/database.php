@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'driveman',
-	'password' => 'xkiN8gdviN2534!^',
-	'database' => 'driveman',
+	'hostname' => '45.127.62.70',
+	'username' => 'root',
+	'password' => 'xkiN8gdviN',
+	'database' => 'dbnutmor',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
